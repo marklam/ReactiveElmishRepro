@@ -49,8 +49,7 @@
         <PackageReference Include="LiveChartsCore.SkiaSharpView.Avalonia" Version="2.0.0-beta.802-11.0.0-rc1.1" />
         <PackageReference Include="Projektanker.Icons.Avalonia.FontAwesome" Version="8.3.0" />
         <PackageReference Include="Projektanker.Icons.Avalonia.MaterialDesign" Version="8.3.0" />
-        <ProjectReference Include="..\..\ReactiveElmish.Avalonia\ReactiveElmish.Avalonia.fsproj" />
-        <ProjectReference Include="..\..\ReactiveElmish\ReactiveElmish.fsproj" />
+        <PackageReference Include="ReactiveElmish.Avalonia" Version="1.3.0" />
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     </ItemGroup>
 </Project>
